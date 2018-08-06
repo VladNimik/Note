@@ -35,9 +35,9 @@ In the second controller `NoteViewController` user can edit existing note.
 
 ## Examples
 
-![Image 1](https://github.com/VladNimik/Note/blob/master/Notes/Assets.xcassets/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.37.18.imageset/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.37.18.png)
-![Image 2](https://github.com/VladNimik/Note/blob/master/Notes/Assets.xcassets/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.45.10.imageset/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.45.10.png)
-![Image 3](https://github.com/VladNimik/Note/blob/master/Notes/Assets.xcassets/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.45.34.imageset/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.45.34.png)
+![Image 1](https://github.com/VladNimik/Note/blob/master/Notes/Assets.xcassets/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.37.18.imageset/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.37.18.png){:height="50%" width="50%"}
+![Image 2](https://github.com/VladNimik/Note/blob/master/Notes/Assets.xcassets/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.45.10.imageset/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.45.10.png){:height="50%" width="50%"}
+![Image 3](https://github.com/VladNimik/Note/blob/master/Notes/Assets.xcassets/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.45.34.imageset/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-08-06%20at%2010.45.34.png){:height="50%" width="50%"}
 
 
 
