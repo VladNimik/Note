@@ -123,21 +123,6 @@
             </objects>
             <point key="canvasLocation" x="-265" y="134"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="5JE-dP-B9X">
-            <objects>
-                <navigationController storyboardIdentifier="NavigationId" automaticallyAdjustsScrollViewInsets="NO" id="8Nk-6b-lfN" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="whY-s0-3OB">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Aag-Vm-DEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-266" y="837"/>
-        </scene>
     </scenes>
     <resources>
         <image name="settings" width="22" height="22"/>

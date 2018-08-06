@@ -29,6 +29,7 @@ class NotesTests: XCTestCase {
         }
     }
     
+    // test internet connection duration
     func testNetwork() {
         let ex = expectation(description: "Expecting a JSON data not nil")
         
@@ -46,7 +47,7 @@ class NotesTests: XCTestCase {
         }
         
     }
-    
+     // test if textView is Empty
     func testTextView(){
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let noteController = storyboard.instantiateViewController(withIdentifier: "NoteViewController") as! NoteViewController
@@ -54,6 +55,7 @@ class NotesTests: XCTestCase {
         XCTAssertEqual("", noteController.textView.text)
     }
     
+    // test localization
     func testTitle(){
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
