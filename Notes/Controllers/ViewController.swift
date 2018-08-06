@@ -7,6 +7,12 @@
 //
 
 import UIKit
+import Alamofire
+class Connectivity {
+    class func isConnectedToInternet() ->Bool {
+        return NetworkReachabilityManager()!.isReachable
+    }
+}
 
 class ViewController: UIViewController {
    
@@ -62,8 +68,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if Connectivity.isConnectedToInternet() {
+            print("internet is available.")
+            downloadNotes()
+
+        }
+        else{
+            let menu = UIAlertController(title: "No internet connection", message: "Check your internet connection", preferredStyle: .alert)
+            let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)
+            menu.addAction(okButton)
+            present(menu, animated: true, completion: nil)
+            
+        }
         
-        downloadNotes()
         
        
         
@@ -90,7 +107,9 @@ class ViewController: UIViewController {
         
     }
     @objc func refreshTable(refreshControl: UIRefreshControl){
-        downloadNotes()
+        if Connectivity.isConnectedToInternet() {
+            downloadNotes()
+        }
         refreshControl.endRefreshing()
     }
 
