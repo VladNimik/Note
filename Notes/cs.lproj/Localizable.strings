@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Notes
+
+  Created by nimik on 05/08/2018.
+  Copyright © 2018 nimik. All rights reserved.
+*/
+
+"changeLangTitle" = "Změnit jazyk";
+"saveBtn" = "Uložit";
+"notesTitle" = "Poznámky";
+"cancelAlert" = "Zrušit";
+"deleteAction" = "Smazat";
+"shareAction" = "Sdílet";
+"search" = "Hledat";
+"en" = "Angličtina";
+"ru" = "Ruština";
+"cs" = "Čeština";
